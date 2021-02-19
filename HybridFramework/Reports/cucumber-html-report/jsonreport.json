@@ -1,0 +1,85 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-18T17:06:52.822Z",
+        "line": 2,
+        "name": "To test the login functionality of CRM application.",
+        "description": "",
+        "id": "to-test-the-crm-application;to-test-the-login-functionality-of-crm-application.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat com.BaseClass.Library.browserSetUp(Library.java:48)\r\n\tat com.StepsDefinition.LoginStepDefinition.to_launch_the_CRM_application(LoginStepDefinition.java:18)\r\n\tat ✽.To launch the CRM application(file:///C:/Users/Anuja%20Ramajayan/eclipse-workspace/HybridFramework/src/test/resources/features/login.feature:3)\r\n",
+              "duration": 420000000,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "To launch the CRM application",
+            "match": {
+              "location": "com.StepsDefinition.LoginStepDefinition.to_launch_the_CRM_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8000000,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "To enter the username and password",
+            "match": {
+              "location": "com.StepsDefinition.LoginStepDefinition.to_enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "To click the login button",
+            "match": {
+              "location": "com.StepsDefinition.LoginStepDefinition.to_click_the_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "take a screenshot",
+            "match": {
+              "location": "com.StepsDefinition.LoginStepDefinition.take_a_screenshot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "close the browser",
+            "match": {
+              "location": "com.StepsDefinition.LoginStepDefinition.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test the CRM application",
+    "description": "",
+    "id": "to-test-the-crm-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/login.feature",
+    "tags": []
+  }
+]
